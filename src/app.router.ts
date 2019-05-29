@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { InstallationComponent } from './installation/installation.component';
 import { PlantSelectorComponent } from './app/plant-selector/plant-selector.component';
 import { SubscribedComponent } from './subscribed/subscribed.component'
+import { UpdateComponent } from './update/update.component';
 
 export const router: Routes = [
   { path: '', redirectTo: 'plant', pathMatch: 'full' },
@@ -15,7 +16,8 @@ export const router: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'installation', component: InstallationComponent },
   { path: 'plant-selector', component: PlantSelectorComponent},
-  { path: 'my-subscribed', component:SubscribedComponent}
+  { path: 'my-subscribed', component:SubscribedComponent},
+  { path: 'my-update', component:UpdateComponent}
 
 ];
 
