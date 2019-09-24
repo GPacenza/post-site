@@ -43,6 +43,11 @@ export class LoginComponent implements OnInit {
   }
 
   addUser(){
+    // firebase.initializeApp({
+    //   apiKey: "AIzaSyAXe0rjDTHgcoUSsP9u5NtiwNf92VL_oI4",
+    //   authDomain: "post-visualize-development.firebaseapp.com",
+    //   projectId: "post-visualize-development"
+    // });
     var db = firebase.firestore();
     var form = document.getElementsByTagName("FORM")[0];
     var inputs = form.getElementsByTagName("INPUT");
@@ -97,7 +102,7 @@ export class LoginComponent implements OnInit {
         plants: plnts
     })
     .then(function(docRef) {
-        console.log("Document written with ID: ", mail);
+        console.log("Document written with ID: ", docID);
     }).then(()=>{
       this.router.navigate(['my-subscribed'])
     }).catch(function(error) {
