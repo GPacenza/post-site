@@ -4,7 +4,7 @@ Dear {{User name}},
 
 Here is a plant summary of {{plant name}} for data between {{Data start date}} and {{Data end date}}. In total, we received **{{Number of data points}}** submissions!
 
-On average, operators were recording the water data every {{n points/Total collection time}. Our goal is a data point every hour, or approximately {{n points expected-n points total}} more than {{plant name}} already submits.
+On average, operators were recording the water data every {{n points/Total collection time}}. Our goal is a data point every hour, or approximately {{n points expected-n points total}} more than {{plant name}} already submits.
 
 {{percent within norms Honduras}} of the data points report effluent water within Honduran drinking water regulations. The highest spike in raw water was {{max raw water}}, which was treated down to {{right after max raw water}}.
 
